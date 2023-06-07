@@ -13,6 +13,7 @@ const RegisterPage = () => {
   const handleAccepted = (event) => {
     setAccepted(event.target.checked);
   };
+  
 
   const handleSignUp = (event) => {
     event.preventDefault();
