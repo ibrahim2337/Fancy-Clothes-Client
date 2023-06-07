@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App';
-// import Homepage from './pages/HomePage/Homepage';
+import Homepage from './pages/HomePage/Homepage';
 // import ErrorPage from './pages/ErrorPage/ErrorPage';
 // import Blogs from './pages/Blogs/Blogs';
 // import LoginPage from './pages/LoginPage/LoginPage';
