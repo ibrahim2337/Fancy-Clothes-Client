@@ -9,7 +9,7 @@ import ErrorPage from './pages/ErrorPage/ErrorPage';
 import Blogs from './pages/Blogs/Blogs';
 // import LoginPage from './pages/LoginPage/LoginPage';
 // import RegisterPage from './pages/RegisterPage/RegisterPage';
-// import AuthProvider from './provider/AuthProvider';
+import AuthProvider from './provider/AuthProvider';
 
 
 const router = createBrowserRouter([
