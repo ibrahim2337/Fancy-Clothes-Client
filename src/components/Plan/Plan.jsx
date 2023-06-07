@@ -12,18 +12,23 @@ const Plan = () => {
           <img src={planImg} className="rounded-lg shadow-2xl" />
           <div className="">
             <h1 className="text-5xl font-bold">
-              Let's plan your perfect photoshoot
+              Let's plan your perfect  Fashion Designer
             </h1>
             <p className="py-6">
-              That sounds like a fun idea! I'd be happy to help you plan a
-              perfect photoshoot. Here are some steps we can take to make it a
-              great experience: <br />
-              <br />
-              1.Choose a Theme or Concept: Determine the overall theme or
-              concept for the photoshoot. It could be something like "Vintage
-              Glamour," "Nature-inspired," or "Urban Exploration." Having a
-              clear theme will help guide the location, props, outfits, and
-              poses......
+            Fashion design is the art and profession of creating clothing
+                and accessories. It involves the process of designing and
+                producing garments that are aesthetically pleasing, functional,
+                and suitable for various occasions or purposes. Fashion
+                designers are responsible for conceptualizing and creating new
+                styles, trends, and collections.
+                <br />
+                <br />
+                Fashion design encompasses several stages, including research,
+                sketching, fabric selection, pattern-making, garment
+                construction, and presentation. Designers draw inspiration from
+                various sources such as art, culture, history, nature, and
+                current trends to develop unique and innovative designs. They
+                consider factors like color, texture, silhouette.....
             </p>
             <Link to="/blogs">
               <button className="btn btn-primary ">Read More</button>
