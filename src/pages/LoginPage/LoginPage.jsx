@@ -64,7 +64,7 @@ const LoginPage = () => {
           className="space-y-6 ng-untouched ng-pristine ng-valid"
         >
           <div className="space-y-1 text-sm">
-            <label className="block text-black">Email</label>
+            <label className="block text-black ">Email</label>
             <input
               type="text"
               name="email"
