@@ -8,7 +8,7 @@ import Homepage from './pages/HomePage/Homepage';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
 import Blogs from './pages/Blogs/Blogs';
 import LoginPage from './pages/LoginPage/LoginPage';
-// import RegisterPage from './pages/RegisterPage/RegisterPage';
+import RegisterPage from './pages/RegisterPage/RegisterPage';
 import AuthProvider from './provider/AuthProvider';
 
 
