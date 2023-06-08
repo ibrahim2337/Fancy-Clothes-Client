@@ -37,7 +37,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <NavLink to="/" className="text-3xl text-white">
+            <NavLink to="/" className="text-3xl font-bold text-[#27ffed]">
             Fancy Clothes
             </NavLink>
           </div>

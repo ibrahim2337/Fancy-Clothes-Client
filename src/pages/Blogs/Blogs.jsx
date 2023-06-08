@@ -10,7 +10,7 @@ const Blogs = () => {
     <div className="pt-28 lg:px-28 bg-base-200">
       <div className="">
         <h1 className="text-5xl font-bold text-center ">
-          Let's plan your perfect Fashion Designer
+          Let's plan your perfect <span className="text-[#1EB2A6]">Fashion Designer</span>
         </h1>
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content flex-col gap-10 lg:flex-row  lg:px-5">
