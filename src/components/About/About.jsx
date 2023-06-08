@@ -8,17 +8,17 @@ import icon3 from '../../assets/about/athlete.png'
 
 const About = () => {
   return (
-    <div className=" lg:px-28 bg-base-200">
-      <div className="hero py-28 ">
+    <div className=" lg:px-28">
+      <div className="hero mt-24">
         <div className="hero-content grid gap-10 lg:grid-cols-2">
-          <img src={aboutImg} className="rounded-lg shadow-2xl" />
+          <img src={aboutImg} className="rounded-lg shadow-xl" />
           <div className="">
-            <h3 className="font-bold text-[#1EB2A6]">LEARN ANYTHING</h3>
+            <h3 className="font-bold text-xl text-[#1EB2A6]">LEARN ANYTHING</h3>
             <h1 className="text-5xl font-bold mt-5">
             Benefits About Online Learning Expertise
             </h1>
 
-            <div className="flex border px-5 py-5 mt-5 hover:bg-[#1EB2A6] hover:text-white rounded-md">
+            <div className="flex border  px-5 py-5 mt-5 hover:bg-[#1EB2A6] hover:text-white rounded-md">
               <div>
                <img className="h-[80px] w-[150px]" src={icon1} alt="" />
               </div>
