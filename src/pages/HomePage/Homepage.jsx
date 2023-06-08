@@ -1,6 +1,7 @@
 
 import About from "../../components/About/About";
 import Banner from "../../components/Banner/Banner";
+import Category from "../../components/Category/Category";
 import ClassMenu from "../../components/ClassMenu/ClassMenu";
 import Packages from "../../components/Packages/Packages";
 import Testimonials from "../../components/Testimonials/Testimonials";
@@ -13,6 +14,7 @@ const Homepage = () => {
     <div>
       <Banner />
       <About />
+      <Category />
       <ClassMenu />
       <Packages />
       <Testimonials />

@@ -11,6 +11,7 @@ import LoginPage from './pages/LoginPage/LoginPage';
 import RegisterPage from './pages/RegisterPage/RegisterPage';
 import AuthProvider from './provider/AuthProvider';
 import Gallery from './pages/Gallery/Gallery';
+import ContactPage from './pages/ContactPage/ContactPage';
 
 
 const router = createBrowserRouter([
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "/gallery",
         element: <Gallery />,
+      },
+      {
+        path: "/contact",
+        element: <ContactPage />,
       },
     ]
   },
