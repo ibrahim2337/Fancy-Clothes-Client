@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="image ">
-        <div className=" navbar px-5 lg:px-20 py-5 fixed z-50 opacity-50 bg-black">
+        <div className=" navbar px-5 lg:px-20 py-5 fixed z-50 opacity-40 bg-black">
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -37,7 +37,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <NavLink to="/" className="text-xl text-white">
+            <NavLink to="/" className="text-3xl text-white">
             Fancy Clothes
             </NavLink>
           </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
           </div>
           <div className="navbar-end">
             <Link to="/login">
-              <button className=" text-xl font-semibold px-5 py-2 bg-slate-300 rounded-md">
+              <button className="px-8 py-3 rounded-md font-semibold text-lg bg-[#1EB2A6] hover:bg-[#05887d] text-white">
                 LogIn
               </button>
             </Link>

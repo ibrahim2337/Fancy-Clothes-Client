@@ -159,7 +159,7 @@ const RegisterPage = () => {
               <button
                 disabled={!accepted}
                 type="submit"
-                className="w-full px-8 py-3 font-semibold rounded-md text-white border-md rounded-b-md bg-gradient-to-r from-gray-600 to-gray-400 bg-neutral  disabled:opacity-70 disabled:cursor-not-allowed"
+                className="w-full px-5 py-3 mt-2 rounded-md bg-[#1EB2A6] hover:bg-[#05887d] text-white"
               >
                 Register
               </button>

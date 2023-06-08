@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
-import planImg1 from "../../assets/plan/plan-1.jpg";
-import planImg2 from "../../assets/plan/plan-2.jpg";
-import planImg3 from "../../assets/plan/plan-3.jpg";
+import planImg1 from "../../assets/about/plan-1.jpg";
+import planImg2 from "../../assets/about/plan-2.jpg";
+import planImg3 from "../../assets/about/plan-3.jpg";
 
 const Blogs = () => {
   return (
