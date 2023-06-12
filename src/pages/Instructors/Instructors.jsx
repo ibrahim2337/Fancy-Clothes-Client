@@ -7,7 +7,7 @@ const Instructors = () => {
       <section className="">
         <div className="container flex flex-col items-center justify-center  mx-auto sm:p-10">
           <p className="font-bold text-center text-xl text-[#1EB2A6]">
-            OUR INSTRUCTORS
+            OUR INSTRUCTORS 
           </p>
           <h1 className="text-5xl font-bold text-center mt-3">
             Definition, Skills and How To Become One
