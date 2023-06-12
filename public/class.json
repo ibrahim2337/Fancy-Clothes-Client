@@ -1,8 +1,9 @@
-{
+[
+  {
     "name": "Fashion Design Fundamentals",
     "instructor": {
       "name": "Liam Wilson",
-      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "image": "https://i.ibb.co/R481p7J/gettyimages-1394757568-612x612.jpg",
       "email": "liam@gmail.com",
       "course_name": "Fashion Illustration Techniques",
       "course_taken": 1
@@ -11,8 +12,28 @@
     "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
     "available_seats": 25,
     "price": 199.99,
-    "description": "Fashion Design Fundamentals is a comprehensive course that introduces students to the fundamental concepts and skills required in the field of fashion design. This course covers a range of topics including design principles, garment construction, patternmaking, and fashion illustration. Students will learn how to create their own fashion designs from concept to finished product, as well as gain a solid understanding of the fashion industry and current trends. The course combines theoretical knowledge with practical hands-on exercises and projects. By the end of the course, students will have developed a strong foundation in fashion design and will be ready to pursue further studies or embark on a career in the fashion industry.",
+    "description": "Fashion Design Fundamentals is a comprehensive course that introduces students to the fundamental concepts and skills required in the field of fashion design. This course covers a range of topics including design principles, garment construction, patternmaking, and fashion illustration. Students will learn how to create their own fashion designs from concept to finished product, as well as gain a solid understanding of the fashion industry and current trends.",
     "duration": "10 weeks",
     "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
     "prerequisites": "No prior experience or knowledge in fashion design is required. This course is suitable for beginners."
+  },
+  {
+    "name": "Elements and Principles of Fashion Design",
+    "instructor": {
+      "name": "Ralph Lauren",
+      "image": "https://i.ibb.co/f9SskSZ/pretty-brunette-girl-grey-dress-yellow-jacket-is-standing-near-clothes-workshop-studio-she-is-smilin.jpg",
+      "email": "ralph@gmail.com",
+      "course_name": "Fashion Illustration Techniques",
+      "course_taken": 1
+    },
+
+    "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+    "available_seats": 30,
+    "price": 159.99,
+    "description": "The Elements and Principles of Fashion Design course provides an in-depth understanding of the fundamental elements and principles that form the basis of fashion design. Through this course, students will gain knowledge and skills necessary to create visually appealing and well-designed fashion collections.",
+    "duration": "8 weeks",
+    "schedule": "Thursdays and Friday, 7:00 PM - 9:00 PM",
+    "prerequisites": "To enroll in the Mood Boards, Design Development, and Sketching course, it is recommended to  basic drawing techniques, such as sketching figures, proportions, and basic shapes, will be beneficial."
   }
+]
+  

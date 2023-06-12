@@ -1,6 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
+  
   return (
     <div>
       <div className="image ">
@@ -10,7 +12,7 @@ const Navbar = () => {
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 "
+                  className="h-5 w-5 text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -25,15 +27,16 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
+                className="menu menu-compact dropdown-content p-2 shadow bg-white border rounded-md w-52 "
               >
                 <li>
-                  <a>Home</a>
-                  <a>Gallery</a>
-                  <a>Our Course</a>
-                  <a>My Course</a>
-                  <a>Contact us</a>
-                  <a>Blogs</a>
+                  <Link to='/home'>Home</Link>
+                  <Link to='gallery'>Gallery</Link>
+                  <Link to='/classes'>Classes</Link>
+                  <Link to='/instructors'>Instructors</Link>
+                  <Link to='/dashboard'>Dashboard</Link>
+                  <Link to='/contact'>Contact us</Link>
+                  <Link to='/blogs'>Blogs</Link>
                 </li>
               </ul>
             </div>
@@ -49,11 +52,14 @@ const Navbar = () => {
               <Link to="/gallery" className="text-xl font-semibold text-white">
                 Gallery
               </Link>
-              <Link to="/our-course" className=" text-xl font-semibold text-white">
-                Our Course
+              <Link to="/classes" className=" text-xl font-semibold text-white">
+                Classes
               </Link>
-              <Link to="/my-course" className=" text-xl font-semibold text-white">
-                My Course
+              <Link to="/instructors" className=" text-xl font-semibold text-white">
+              Instructors
+              </Link>
+              <Link to="/dashboard" className=" text-xl font-semibold text-white">
+              Dashboard
               </Link>
               <Link to="/contact" className=" text-xl font-semibold text-white">
                 Contact Us

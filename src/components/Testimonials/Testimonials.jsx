@@ -3,7 +3,7 @@ const Testimonials = () => {
     <div>
       <section className="">
         <div className="max-w-6xl px-6 py-10 mx-auto">
-          <p className="text-xl font-medium text-center text-[#1EB2A6] ">
+          <p className="font-bold text-xl text-center text-[#1EB2A6] ">
             TESTIMONIALS
           </p>
           <h1 className="text-4xl text-center font-bold mt-3 lg:text-5xl">

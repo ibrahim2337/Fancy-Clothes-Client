@@ -10,12 +10,12 @@ const Banner = () => {
     <div>
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
-          <img src={banner1} className="w-full h-[600px]" />
+          <img src={banner1} className="object-cover w-full h-[300px] mt-10 rounded-lg lg:h-[600px]" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" className="btn btn-circle">
               ❮
             </a>
-            <a href="#slide2" className="btn btn-circle">
+            <a href="#slide2" className="btn btn-circle object-cover">
               ❯
             </a>
           </div>

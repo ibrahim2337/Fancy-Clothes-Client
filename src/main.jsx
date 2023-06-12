@@ -12,6 +12,9 @@ import RegisterPage from './pages/RegisterPage/RegisterPage';
 import AuthProvider from './provider/AuthProvider';
 import Gallery from './pages/Gallery/Gallery';
 import ContactPage from './pages/ContactPage/ContactPage';
+import Instructors from './pages/Instructors/Instructors';
+import CLasses from './pages/CLasses/CLasses';
+import Dashboard from './pages/Dashboard/Dashboard';
 
 
 const router = createBrowserRouter([
@@ -47,6 +50,18 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactPage />,
+      },
+      {
+        path: "/instructors",
+        element: <Instructors />,
+      },
+      {
+        path: "/classes",
+        element: <CLasses />,
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard />,
       },
     ]
   },

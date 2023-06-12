@@ -30,6 +30,7 @@ const LoginPage = () => {
         form.reset();
         setError("");
         navigate(from, { replace: true });
+        
       })
       .catch((error) => {
         console.error(error);

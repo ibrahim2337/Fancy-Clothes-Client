@@ -7,16 +7,18 @@ import planImg3 from "../../assets/about/plan-3.jpg";
 
 const Blogs = () => {
   return (
-    <div className="pt-28 lg:px-28 bg-base-200">
-      <div className="">
-        <h1 className="text-5xl font-bold text-center ">
-          Let's plan your perfect <span className="text-[#1EB2A6]">Fashion Designer</span>
+    <div className="pt-20 lg:px-28 bg-base-200">
+      <div className=" py-12">
+        <p className="font-bold text-center text-xl text-[#1EB2A6]">OUR PLAN</p>
+        <h1 className="text-5xl font-bold text-center mt-3">
+          Let's plan your perfect{" "}
+          <span className="text-[#1EB2A6]">Fashion Designer</span>
         </h1>
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content flex-col gap-10 lg:flex-row  lg:px-5">
             <img src={planImg1} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
-              <p className="py-6 border bg-slate-200 p-5">
+              <p className="py-6 border bg-[#bdf3ef] rounded-md p-5">
                 Fashion design is the art and profession of creating clothing
                 and accessories. It involves the process of designing and
                 producing garments that are aesthetically pleasing, functional,
@@ -49,7 +51,7 @@ const Blogs = () => {
         <div className="hero-content flex-col gap-10 lg:flex-row-reverse lg:px-5">
           <img src={planImg2} className="max-w-sm rounded-lg shadow-2xl" />
           <div>
-            <p className="py-6 border bg-slate-200 p-5">
+            <p className="py-6 border bg-[#bdf3ef] rounded-md p-5">
               Fashion design is a multifaceted discipline that involves the
               process of creating original clothing and accessories. It combines
               artistic creativity with technical expertise to design garments
@@ -83,7 +85,7 @@ const Blogs = () => {
           <div className="hero-content flex-col gap-10 lg:flex-row  lg:px-5">
             <img src={planImg3} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
-              <p className="py-6 border bg-slate-200 p-5">
+              <p className="py-6 border bg-[#bdf3ef] rounded-md p-5">
                 Fashion designers also consider market trends, target
                 demographics, and consumer preferences while developing their
                 designs. They strive to strike a balance between artistic

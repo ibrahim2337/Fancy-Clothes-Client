@@ -5,10 +5,10 @@ const Packages = () => {
   return (
     <div>
     
-      <section className="py-20 lg:px-20 ">
-        <div className="container mx-auto p-4 sm:p-10">
+      <section className="py-20 lg:px-32 ">
+        <div className="container mx-auto ">
           <div className="max-w-2xl mx-auto mb-16 text-center">
-            <p className="text-xl font-medium text-center text-[#1EB2A6] ">
+            <p className="text-xl font-bold text-[#1EB2A6] ">
               OUR PRICING
             </p>
             <h2 className="text-4xl font-bold mt-3 lg:text-5xl">
