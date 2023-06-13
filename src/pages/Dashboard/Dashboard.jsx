@@ -139,7 +139,7 @@ const Dashboard = () => {
           title="Our HomePage"
           className={({ isActive }) =>
             isActive
-              ? " border-md rounded-md bg-red-950 text-white"
+              ? " border-md rounded-md bg-red-950 text-white "
               : "font-medium  text-white"
           }
         >
