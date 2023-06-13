@@ -77,7 +77,8 @@ const MyEnrolled = () => {
                         <td className="px-4 py-4 text-sm text-center whitespace-nowrap">
                           <span>{index + 1}</span>
                         </td>
-                        <td className="px-4 py-4 hidden lg:block text-sm font-medium  whitespace-nowrap">
+                        <td className="px-4 
+                        py-4 hidden lg:block text-sm font-medium  whitespace-nowrap">
                           <div className="inline-flex items-center gap-x-3">
                             <div className="flex items-center gap-x-2">
                               <img
