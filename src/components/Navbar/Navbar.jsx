@@ -1,10 +1,22 @@
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 import { FaShoppingCart } from "react-icons/fa";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
+  const [cart, setCart] = useState([]);
+
+  useEffect(() => {
+    fetch(`http://localhost:5000/course-cart?email=${user?.email}`)
+      .then((res) => res.json())
+      .then((data) => {
+       
+        setCart(data);
+      });
+
+  }, []);
+console.log(cart)
 
   const signOut = () => {
     logOut()
@@ -66,6 +78,35 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
+          to="/instructors"
+          aria-label="Instructors"
+          title="Instructors"
+          className={({ isActive }) =>
+            isActive
+              ? " border-md rounded-md bg-red-950 text-white"
+              : "font-medium  text-white"
+          }
+        >
+          Instructors
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/Dashboard"
+          aria-label="Dashboard"
+          title="dashboard"
+          className={({ isActive }) =>
+            isActive
+              ? " border-md rounded-md bg-red-950 text-white"
+              : "font-medium  text-white"
+          }
+        >
+          Dashboard
+        </NavLink>
+      </li>
+     
+      <li>
+        <NavLink
           to="/contact"
           aria-label="Our ContactPage"
           title="Our ContactPage"
@@ -78,19 +119,27 @@ const Navbar = () => {
           CONTACT US
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/blogs"
+          aria-label="Blogs"
+          title="Blogs"
+          className={({ isActive }) =>
+            isActive
+              ? " border-md rounded-md bg-red-950 text-white"
+              : "font-medium  text-white"
+          }
+        >
+          Blogs
+        </NavLink>
+      </li>
     </>
   );
+
+  
   return (
     <div>
-      <li>
-        <Link to="/home">Home</Link>
-        <Link to="gallery">Gallery</Link>
-        <Link to="/classes">Classes</Link>
-        <Link to="/instructors">Instructors</Link>
-        <Link to="/dashboard">Dashboard</Link>
-        <Link to="/contact">Contact us</Link>
-        <Link to="/blogs">Blogs</Link>
-      </li>
+     
       <div className="navbar fixed z-10 bg-opacity-30   text-white bg-black">
       <div className="navbar-start">
         <div className="dropdown">
@@ -137,8 +186,8 @@ const Navbar = () => {
           <label tabIndex={0} className="btn btn-ghost btn-circle">
             <div className="indicator text-2xl">
              <FaShoppingCart></FaShoppingCart>
-              {/* {cart?.length || 0} */}
-              <span className="badge badge-sm indicator-item">+</span>
+              
+              <span className="badge badge-sm indicator-item">+{cart?.length || 0}</span>
             </div>
           </label>
         

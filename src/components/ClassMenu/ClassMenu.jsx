@@ -12,7 +12,7 @@ const ClassMenu = () => {
         setCourse(data);
       });
   }, []);
- console.log(course);
+ 
 
   return (
     <div className="mt-24">
