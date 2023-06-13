@@ -39,6 +39,24 @@
     "duration": "8 weeks",
     "schedule": "Thursdays and Friday, 7:00 PM - 9:00 PM",
     "prerequisites": "To enroll in the Mood Boards, Design Development, and Sketching course, it is recommended to  basic drawing techniques, such as sketching figures, proportions, and basic shapes, will be beneficial."
+  },
+  {
+    "name": "",
+    "courseId": 1,
+    "instructor": {
+      "name": "",
+      "image": "",
+      "email": "",
+      "course_name": "",
+      "course_taken": 1
+    },
+    "image": "",
+    "available_seats": 0,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 199.99,
+    "description": ""
+    
   }
 ]
   
