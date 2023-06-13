@@ -1,83 +1,205 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../provider/AuthProvider";
+import { FaShoppingCart } from "react-icons/fa";
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
 
-  
+  const signOut = () => {
+    logOut()
+      .then(() => {
+        refreshPage();
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  const refreshPage = () => {
+    window.location.reload();
+  };
+  const navItem = (
+    <>
+      <li>
+        <NavLink
+          to="/home"
+          aria-label="Home"
+          title="Home"
+          className={({ isActive }) =>
+            isActive
+              ? " border-md rounded-md bg-red-950 text-white"
+              : "font-medium  text-white"
+          }
+        >
+          HOME
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/gallery"
+          aria-label="Gallery"
+          title="Gallery"
+          className={({ isActive }) =>
+            isActive
+              ? " border-md rounded-md bg-red-950 text-white"
+              : "font-medium  text-white"
+          }
+        >
+          Gallery
+        </NavLink>
+      </li>
+
+      <li>
+        <NavLink
+          to="/classes"
+          aria-label="Classes"
+          title="CLasses"
+          className={({ isActive }) =>
+            isActive
+              ? " border-md rounded-md bg-red-950 text-white"
+              : "font-medium  text-white"
+          }
+        >
+          Classes
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/contact"
+          aria-label="Our ContactPage"
+          title="Our ContactPage"
+          className={({ isActive }) =>
+            isActive
+              ? " border-md rounded-md bg-red-950 text-white"
+              : "font-medium  text-white"
+          }
+        >
+          CONTACT US
+        </NavLink>
+      </li>
+    </>
+  );
   return (
     <div>
-      <div className="image ">
-        <div className=" navbar px-5 lg:px-20 py-5 fixed z-50 opacity-40 bg-black">
-          <div className="navbar-start">
-            <div className="dropdown">
-              <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
+      <li>
+        <Link to="/home">Home</Link>
+        <Link to="gallery">Gallery</Link>
+        <Link to="/classes">Classes</Link>
+        <Link to="/instructors">Instructors</Link>
+        <Link to="/dashboard">Dashboard</Link>
+        <Link to="/contact">Contact us</Link>
+        <Link to="/blogs">Blogs</Link>
+      </li>
+      <div className="navbar fixed z-10 bg-opacity-30   text-white bg-black">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabIndex={0}
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-black rounded-box w-52"
+          >
+            {navItem}
+            <li> 
+              <Link
+                  to="/login"
+                  className="px-6 py-2 font-bold text-cyan-50 border-md rounded-md   bg-fuchsia-900  hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50"
+                  aria-label="login"
+                  title="login"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
+                  login
+                </Link></li>
+          </ul>
+        </div>
+        <a className="btn btn-ghost normal-case text-xl">Bistro Boss</a>
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">{navItem}</ul>
+      </div>
+      <div className="navbar-end gap-4">
+        <Link to="/dashboard/my-cart">
+        <div className="dropdown dropdown-end">
+          <label tabIndex={0} className="btn btn-ghost btn-circle">
+            <div className="indicator text-2xl">
+             <FaShoppingCart></FaShoppingCart>
+              {/* {cart?.length || 0} */}
+              <span className="badge badge-sm indicator-item">+</span>
+            </div>
+          </label>
+        
+        </div>
+        
+        </Link>
+        {user?.uid ? (
+          <>
+            <div className="dropdown dropdown-hover dropdown-end">
+              <label
+                tabIndex={0}
+                className="btn btn-ghost btn-circle border-2 border-primary avatar ml-2"
+              >
+                <div className="w-10 rounded-full">
+                  {user?.photoURL ? (
+                    <img alt="" src={user.photoURL} />
+                  ) : (
+                    <img
+                      alt=""
+                      src="https://i.ibb.co/VvZScTP/blank-avatar.png"
+                    />
+                  )}
+                </div>
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content p-2 shadow bg-white border rounded-md w-52 "
+                className="menu menu-compact dropdown-content p-2 shadow  border rounded-md w-52"
               >
                 <li>
-                  <Link to='/home'>Home</Link>
-                  <Link to='gallery'>Gallery</Link>
-                  <Link to='/classes'>Classes</Link>
-                  <Link to='/instructors'>Instructors</Link>
-                  <Link to='/dashboard'>Dashboard</Link>
-                  <Link to='/contact'>Contact us</Link>
-                  <Link to='/blogs'>Blogs</Link>
+                  <Link>{user?.displayName}</Link>
+                </li>
+                <li>
+                  <Link to="/dashboard">Dashboard</Link>
+                </li>
+                <li>
+                  <Link>Profile</Link>
+                </li>
+                <li>
+                  <Link onClick={signOut}>Logout</Link>
                 </li>
               </ul>
             </div>
-            <NavLink to="/" className="text-3xl font-bold text-[#27ffed]">
-            Fancy Clothes
-            </NavLink>
-          </div>
-          <div className="navbar-center hidden lg:flex">
-            <div className="menu menu-horizontal px-1 gap-3 ">
-              <Link to="/home" className=" text-xl font-semibold text-white">
-                Home
-              </Link>
-              <Link to="/gallery" className="text-xl font-semibold text-white">
-                Gallery
-              </Link>
-              <Link to="/classes" className=" text-xl font-semibold text-white">
-                Classes
-              </Link>
-              <Link to="/instructors" className=" text-xl font-semibold text-white">
-              Instructors
-              </Link>
-              <Link to="/dashboard" className=" text-xl font-semibold text-white">
-              Dashboard
-              </Link>
-              <Link to="/contact" className=" text-xl font-semibold text-white">
-                Contact Us
-              </Link>
-              <Link to="/blogs" className=" text-xl font-semibold text-white">
-                Blogs
-              </Link>
-            </div>
-          </div>
-          <div className="navbar-end">
-            <Link to="/login">
-              <button className="px-8 py-3 rounded-md font-semibold text-lg bg-[#1EB2A6] hover:bg-[#05887d] text-white">
-                LogIn
-              </button>
-            </Link>
-          </div>
-        </div>
+          </>
+        ) : (
+          <>
+            <ul className="col-span-3 justify-end items-center hidden space-x-8 lg:flex">
+              <li>
+                <Link
+                  to="/login"
+                  className="px-6 py-2 font-bold text-cyan-50 border-md rounded-md bg-[#D99904]"
+                  aria-label="login"
+                  title="login"
+                >
+                  login
+                </Link>
+              </li>
+            </ul>
+          </>
+        )}
       </div>
+    </div>
     </div>
   );
 };
