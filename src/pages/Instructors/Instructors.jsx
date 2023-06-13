@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
+
 const Instructors = () => {
   return (
     <div className="pt-24">
@@ -33,7 +34,7 @@ const Instructors = () => {
                 </button>
               </div>
             </div>
-            <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
+            <div className=" flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
               <img
                 alt=""
                 className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full dark:bg-gray-500"
