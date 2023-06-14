@@ -10,7 +10,7 @@ import useTitle from "../../hooks/useTitle";
 
 const AllClasses = () => {
   useTitle("AllClasses");
-  const getClasses = useFetch("http://localhost:5000/course");
+  const getClasses = useFetch("https://fancy-clothes-server.vercel.app/course");
 
   const { data, loading } = getClasses;
 

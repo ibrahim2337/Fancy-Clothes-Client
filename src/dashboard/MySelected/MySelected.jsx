@@ -19,7 +19,7 @@ const handlePay = (data) => {
   data.customerEmail = email
   console.log(data);
 
-  fetch("http://localhost:5000/order",{
+  fetch("https://fancy-clothes-server.vercel.app/order",{
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -44,7 +44,7 @@ const handlePay = (data) => {
         confirmButtonText: 'Yes, delete it!'
       }).then((result) => {
         if (result.isConfirmed) {
-            fetch(`http://localhost:5000/course/delete/${id}`,{
+            fetch(`https://fancy-clothes-server.vercel.app/course/delete/${id}`,{
                 method: 'DELETE'
             })
             .then(res => res.json())

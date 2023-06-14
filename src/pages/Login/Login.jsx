@@ -52,7 +52,7 @@ const Login = () => {
             const saveUser = { displayName: user.displayName,
               email: user.email,
               photoURL: user.photoURL,role: "student" }
-            fetch('http://localhost:5000/users', {
+            fetch('https://fancy-clothes-server.vercel.app/users', {
               method: 'POST',
               headers: {
                   'content-type': 'application/json'

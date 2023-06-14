@@ -37,7 +37,7 @@ const Register = () => {
           photoURL: user.photoURL,
           role: "student",
         };
-        fetch("http://localhost:5000/users", {
+        fetch("https://fancy-clothes-server.vercel.app/users", {
           method: "POST",
           headers: {
             "content-type": "application/json",
@@ -82,7 +82,7 @@ const Register = () => {
             photoURL: data.photo,
             role: "student",
           };
-          fetch("http://localhost:5000/users", {
+          fetch("https://fancy-clothes-server.vercel.app/users", {
             method: "POST",
             headers: {
               "content-type": "application/json",
