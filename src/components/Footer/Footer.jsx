@@ -1,3 +1,4 @@
+
 const Footer = () => {
   return (
     <div className="bg-gradient-to-r from-[#1EB2A6] to-[#044640]">

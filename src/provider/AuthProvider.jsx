@@ -1,41 +1,39 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+
+import { createContext, useEffect, useState } from "react";
+import app from "../firebase/firebase.config";
 import {
-  getAuth,
   createUserWithEmailAndPassword,
+  getAuth,
   onAuthStateChanged,
   signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
   updateProfile,
 } from "firebase/auth";
-import { createContext, useEffect, useState } from "react";
-import app from "../../firebase/firebase.config";
 
-export const AuthContext = createContext();
+
+export const AuthContext = createContext(null);
 const auth = getAuth(app);
-
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loader, setLoader] = useState(true);
 
-  const logInWithGoogle = (providerGoogle) => {
-    setLoader(true);
-    return signInWithPopup(auth, providerGoogle);
-  };
-
-  const signUp = (email, password) => {
+  const createUser = (email, password) => {
     setLoader(true);
     return createUserWithEmailAndPassword(auth, email, password);
   };
-
   const signIn = (email, password) => {
     setLoader(true);
     return signInWithEmailAndPassword(auth, email, password);
   };
-
   const profileUpdate = (profile) => {
+    setLoader(true);
     return updateProfile(auth.currentUser, profile);
+  };
+  const logInWithGoogle = (providerGoogle) => {
+    setLoader(true);
+    return signInWithPopup(auth, providerGoogle);
   };
 
   const logOut = () => {
@@ -55,10 +53,11 @@ const AuthProvider = ({ children }) => {
     user,
     loader,
     setLoader,
-    logInWithGoogle,
-    signUp,
+    createUser,
     signIn,
     profileUpdate,
+    logInWithGoogle,
+   
     logOut,
   };
 

@@ -1,0 +1,264 @@
+[
+  {
+    "name": "Fashion Design Fundamentals",
+    "courseId": 1,
+    "instructor": {
+      "name": "Liam Wilson",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "liam@gmail.com",
+      "course_name": "Fashion Illustration Techniques",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+    "available_seats": 25,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 199.99,
+    "description": "Fashion Design Fundamentals is a comprehensive course that introduces students to the fundamental concepts and skills required in the field of fashion design. This course covers a range of topics including design principles, garment construction, patternmaking, and fashion illustration. Students will learn how to create their own fashion designs from concept to finished product, as well as gain a solid understanding of the fashion industry and current trends. The course combines theoretical knowledge with practical hands-on exercises and projects. By the end of the course, students will have developed a strong foundation in fashion design and will be ready to pursue further studies or embark on a career in the fashion industry.",
+    "duration": "10 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+    "prerequisites": "No prior experience or knowledge in fashion design is required. This course is suitable for beginners."
+  },
+  {
+    "name": "Introduction to Fashion Design",
+    "courseId": 2,
+    "instructor": {
+      "name": "Olivia Thompson",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "olivia@gmail.com",
+      "course_name": "Advanced Patternmaking and Draping",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/k0CYHNS/design-innovation-centre-vilnius-academy-of-arts-design-school-show-dezeen-2364-col-5-852x557.jpg",
+    "available_seats": 30,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 149.99,
+    "description": "Introduction to Fashion Design is a beginner-level course that provides a comprehensive introduction to the exciting world of fashion design. This course is designed for individuals with little or no prior experience in fashion design and covers essential concepts, techniques, and processes. Students will learn about fashion sketching, fabric selection, basic garment construction, and design principles. Through practical projects and hands-on exercises, students will gain a solid foundation in fashion design and develop their creative and technical skills. By the end of the course, students will have created their own fashion designs and will have a clear understanding of the fashion design process.",
+    "duration": "8 weeks",
+    "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+    "prerequisites": "No prior experience or knowledge in fashion design is required. This course is suitable for beginners."
+  },
+
+  {
+    "name": "Fashion Design and Illustration",
+    "courseId": 3,
+    "instructor": {
+      "name": "Emma Lee",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "emma@gmail.com",
+      "course_name": "Fashion Styling and Image Consulting",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/48NnWcw/fashion-designing-steps.jpg",
+    "available_seats": 20,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 199.99,
+    "description": "Fashion Design and Illustration is a dynamic course that combines the art of fashion design with the skill of illustration. This course is designed for aspiring fashion designers who want to enhance their ability to visually communicate their design ideas. Students will learn various illustration techniques, such as sketching, rendering, and digital illustration tools. The course also covers essential fashion design concepts, including garment silhouettes, fabric draping, and color theory. Through hands-on projects and guided exercises, students will develop their illustration skills and create stunning fashion illustrations that bring their design ideas to life.",
+    "duration": "12 weeks",
+    "schedule": "Tuesdays and Thursdays, 5:00 PM - 7:00 PM",
+    "prerequisites": "Basic knowledge of fashion design is recommended, but not required. This course is suitable for both beginners and intermediate-level learners."
+  },
+  {
+    "name": "Fashion Design Techniques",
+    "courseId": 4,
+    "instructor": {
+      "name": "Noah Smith",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "noah@gmail.com",
+      "course_name": "Fashion Marketing Strategies",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/jJQ1Wqp/tdfg-webinar2-3-fashionunited-3lcbryz4-2022-05-19.jpg",
+    "available_seats": 25,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 249.99,
+    "description": "Fashion Design Techniques is an intermediate-level course that focuses on developing advanced skills and techniques in fashion design. This course is ideal for individuals who have a basic understanding of fashion design concepts and want to expand their knowledge and expertise. Students will learn a variety of techniques such as pattern drafting, draping, fabric manipulation, and advanced garment construction. The course emphasizes hands-on experimentation and encourages students to explore innovative design approaches. By the end of the course, students will have acquired a deeper understanding of fashion design techniques and will be able to create unique and high-quality garments.",
+    "duration": "10 weeks",
+    "schedule": "Fridays, 2:00 PM - 5:00 PM",
+    "prerequisites": "Basic knowledge of fashion design is required. It is recommended that students have completed an introductory fashion design course or have equivalent experience."
+  },
+  {
+    "name": "Patternmaking and Garment Construction",
+    "courseId": 5,
+    "instructor": {
+      "name": "Sophia Davis",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "sophia@gmail.com",
+      "course_name": "Textile Design for Fashion",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/pjY7rXf/Title-Image-1.jpg",
+    "available_seats": 15,
+    "totalEnroll": 0,
+    "status": true,
+    "price": 299.99,
+    "description": "Patternmaking and Garment Construction is an advanced-level course that focuses on the technical aspects of fashion design. This course is designed for individuals who have a strong foundation in fashion design and want to develop their skills in patternmaking and garment construction. Students will learn how to create and modify patterns for various garments, including tops, skirts, pants, and dresses. They will also gain hands-on experience in cutting, sewing, and fitting garments. The course covers advanced techniques such as dart manipulation, pleating, and creating collars and sleeves. By the end of the course, students will be able to translate their design ideas into well-fitted and professionally constructed garments.",
+    "duration": "12 weeks",
+    "schedule": "Mondays and Wednesdays, 4:00 PM - 6:30 PM",
+    "prerequisites": "A strong understanding of basic fashion design concepts and prior experience in garment construction is required. It is recommended that students have completed intermediate-level fashion design courses or have equivalent experience."
+  },
+  {
+    "name": "Fashion Sketching and Rendering",
+    "courseId": 6,
+    "instructor": {
+      "name": "Ethan Brown",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "ethan@gmail.com",
+      "course_name": "Fashion Branding and Communication",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/1Qp4LmZ/199038048-futuristic-woman-and-mannequins-with-paper-hats-3d-rendering.jpg",
+    "available_seats": 20,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 199.99,
+    "description": "Fashion Sketching and Rendering is a specialized course that focuses on developing skills in creating fashion illustrations with an emphasis on realistic rendering. This course is designed for individuals who want to enhance their ability to visually communicate their fashion designs. Students will learn various sketching techniques, shading, and rendering methods to bring their fashion illustrations to life. The course covers posing and proportion, fabric textures, and adding details to the fashion figures. Through guided exercises and projects, students will practice sketching a range of fashion styles and gain the confidence to create captivating fashion illustrations.",
+    "duration": "8 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+    "prerequisites": "Basic knowledge of fashion design and drawing skills is recommended. This course is suitable for beginners and intermediate-level learners."
+  },
+  {
+    "name": "Textile Design for Fashion",
+    "courseId": 7,
+    "instructor": {
+      "name": "Isabella Johnson",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "isabella@gmail.com",
+      "course_name": "Fashion Photography",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/7JSgSMg/admfastextiles-print-room-kelly-marie-ws-131341490050272026.jpg",
+    "available_seats": 15,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 249.99,
+    "description": "Textile Design for Fashion is a specialized course that focuses on the art and techniques of creating textiles specifically for fashion. This course is designed for individuals who want to explore the creative possibilities of textile design and its application in the fashion industry. Students will learn about various textile design processes, including surface pattern design, color theory, fabric manipulation, and digital textile printing. Through hands-on projects and experimentation, students will develop their skills in creating unique and innovative textile designs that complement fashion garments. By the end of the course, students will have a portfolio of textile designs ready to showcase their creativity and potential to potential employers or clients.",
+    "duration": "10 weeks",
+    "schedule": "Wednesdays and Fridays, 2:00 PM - 4:00 PM",
+    "prerequisites": "Basic knowledge of fashion design and drawing skills is recommended. This course is suitable for beginners and intermediate-level learners."
+  },
+  {
+    "name": "Fashion Business and Marketing",
+    "courseId": 8,
+    "instructor": {
+      "name": "Mia Anderson",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "mia@gmail.com",
+      "course_name": "Fashion Business Management",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/jzJQvgv/istockphoto-1320225533-612x612.jpg",
+    "available_seats": 30,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 299.99,
+    "description": "Fashion Business and Marketing is a comprehensive course that delves into the business side of the fashion industry. This course is designed for individuals who want to understand the strategic and marketing aspects of the fashion business. Students will learn about brand development, market research, consumer behavior, trend forecasting, retail merchandising, and digital marketing techniques specific to the fashion industry. Through case studies, industry insights, and practical exercises, students will gain a solid foundation in fashion business and marketing principles. By the end of the course, students will be equipped with the knowledge and skills to navigate the competitive fashion business landscape and develop effective marketing strategies.",
+    "duration": "12 weeks",
+    "schedule": "Mondays and Thursdays, 6:30 PM - 8:30 PM",
+    "prerequisites": "No specific prerequisites are required. This course is suitable for beginners and individuals interested in the business aspects of the fashion industry."
+  },
+  {
+    "name": "Fashion Portfolio Development",
+    "courseId": 9,
+    "instructor": {
+      "name": "Aiden Taylor",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "aiden@gmail.com",
+      "course_name": "Fashion Retail Buying",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/pQG0Hc8/8454e57a54ad95f41fa44932fc7f94117314edd4.jpg",
+    "available_seats": 20,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 249.99,
+    "description": "Fashion Portfolio Development is a specialized course that focuses on creating a professional and impactful fashion portfolio. This course is designed for individuals who want to showcase their fashion design skills and creativity to potential employers or clients. Students will learn how to curate and present their work effectively, including fashion sketches, illustrations, technical drawings, mood boards, fabric swatches, and completed garments. The course covers portfolio layout, storytelling, visual presentation techniques, and industry best practices. Through individual and group exercises, students will develop a cohesive and visually compelling fashion portfolio that highlights their unique style and capabilities.",
+    "duration": "8 weeks",
+    "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+    "prerequisites": "Basic knowledge of fashion design and drawing skills is recommended. This course is suitable for beginners and intermediate-level learners."
+  },
+  {
+    "name": "Fashion Branding and Communication",
+    "courseId": 10,
+    "instructor": {
+      "name": "Abigail Johnson",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "abigail@gmail.com",
+      "course_name": "Fashion History and Trends",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/FVhFVdq/8-E0-A490-D-64-F9-443-F-9-CAA-951259-CE2875-1024x768.jpg",
+    "available_seats": 25,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 299.99,
+    "description": "Fashion Branding and Communication is a specialized course that explores the strategies and techniques for building and promoting fashion brands effectively. This course is designed for individuals interested in the intersection of fashion, marketing, and communication. Students will learn about brand identity development, brand positioning, storytelling, visual communication, and integrated marketing communication in the context of the fashion industry. The course covers topics such as fashion advertising, public relations, social media marketing, and event management. Through practical projects and case studies, students will develop the skills to create impactful fashion brand campaigns and effectively communicate the brand's message to the target audience.",
+    "duration": "10 weeks",
+    "schedule": "Wednesdays and Fridays, 4:00 PM - 6:00 PM",
+    "prerequisites": "No specific prerequisites are required. This course is suitable for beginners and individuals interested in fashion branding and marketing."
+  },
+  {
+    "name": "Fashion History and Trends",
+    "courseId": 10,
+    "instructor": {
+      "name": "Elijah Wilson",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "elijah@gmail.com",
+      "course_name": "Fashion Design and Illustration",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/Vmk6Q8M/07320ead80f90894af52f3db31b34c9a.jpg",
+    "available_seats": 30,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 199.99,
+    "description": "Fashion History and Trends is an insightful course that explores the evolution of fashion over time and the influence of historical movements on contemporary fashion. This course is designed for individuals interested in understanding the cultural and social significance of fashion and its connection to art, politics, and society. Students will explore different eras of fashion history, analyzing key fashion designers, iconic garments, and influential trends. The course also covers trend forecasting and how historical references shape current fashion trends. Through lectures, visual presentations, and discussions, students will develop a comprehensive understanding of fashion history and its relevance to contemporary fashion.",
+    "duration": "8 weeks",
+    "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+    "prerequisites": "No specific prerequisites are required. This course is suitable for beginners and individuals interested in fashion history and trends."
+  },
+  {
+    "name": "Fashion Styling and Image Consulting",
+    "courseId": 11,
+    "instructor": {
+      "name": "Charlotte Thompson",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "charlotte@gmail.com",
+      "course_name": "Fashion Portfolio Development",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/xJXfkgd/Fashion-Style-Image-Courses-Online.jpg",
+    "available_seats": 20,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 249.99,
+    "description": "Fashion Styling and Image Consulting is a comprehensive course that focuses on the art and techniques of creating impactful fashion looks and providing professional styling services. This course is designed for individuals interested in developing their skills in fashion styling and image consulting for personal or professional purposes. Students will learn about fashion trends, body types, color analysis, wardrobe planning, and fashion styling for various occasions. The course covers topics such as visual storytelling, personal branding, and effective communication with clients. Through hands-on projects and practical exercises, students will gain the knowledge and confidence to style individuals, create fashion editorials, and offer image consulting services.",
+    "duration": "10 weeks",
+    "schedule": "Tuesdays and Thursdays, 4:00 PM - 6:00 PM",
+    "prerequisites": "No specific prerequisites are required. This course is suitable for beginners and individuals interested in fashion styling and image consulting."
+  },
+
+  {
+    "name": "Draping and Advanced Garment Construction",
+    "courseId": 12,
+    "instructor": {
+      "name": "Ava Smith",
+      "image": "https://i.ibb.co/f92LtQB/95d06ef7f27544514b0b7176c06478e2.jpg",
+      "email": "ava@gmail.com",
+      "course_name": "Fashion Sketching and Rendering",
+      "course_taken": 1
+    },
+    "image": "https://i.ibb.co/rdjf4zH/9414d8bc1de6659c4b53e31a818b9032.jpg",
+    "available_seats": 15,
+    "totalEnroll": 0,
+    "status": "approve",
+    "price": 299.99,
+    "description": "Draping and Advanced Garment Construction is an intensive course that focuses on the art of draping fabric directly on a dress form to create unique garment designs. This course is designed for individuals who want to master advanced garment construction techniques and explore creative possibilities in fashion design. Students will learn how to drape fabric to create custom patterns, manipulate fabric to achieve desired shapes and silhouettes, and refine garment fit and construction. The course covers various draping techniques, such as bias draping, pleating, and gathering. Through hands-on projects and experimentation, students will develop the skills to bring their design concepts to life through draping and advanced garment construction.",
+    "duration": "12 weeks",
+    "schedule": "Mondays and Wednesdays, 2:00 PM - 5:00 PM",
+    "prerequisites": "Basic knowledge of fashion design and garment construction is recommended. This course is suitable for intermediate and advanced-level learners."
+  }
+]

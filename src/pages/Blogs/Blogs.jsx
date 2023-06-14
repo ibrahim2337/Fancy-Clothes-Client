@@ -1,13 +1,11 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable no-unused-vars */
-import React from "react";
 import planImg1 from "../../assets/about/about1.jpg";
 import planImg2 from "../../assets/about/about2.jpg";
 import planImg3 from "../../assets/about/about3.jpg";
 
 const Blogs = () => {
-  return (
-    <div className="pt-20 lg:px-28 bg-base-200">
+    return (
+        <div>
+            <div className="pt-20 lg:px-28 bg-base-200">
       <div className=" py-12">
         <p className="font-bold text-center text-xl text-[#1EB2A6]">OUR PLAN</p>
         <h1 className="text-5xl font-bold text-center mt-3">
@@ -111,7 +109,8 @@ const Blogs = () => {
         </div>
       </div>
     </div>
-  );
+        </div>
+    );
 };
 
 export default Blogs;

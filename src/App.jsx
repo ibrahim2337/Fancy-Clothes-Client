@@ -1,16 +1,24 @@
-import { Outlet } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
+import { Outlet, useLocation } from "react-router-dom";
+import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
 function App() {
+  const location = useLocation();
+
+  const onHeaderFooter =
+    location.pathname.includes("login") ||
+    location.pathname.includes("register");
+
   return (
-    <div>
-      <Navbar />
-      <div>
-        <Outlet />
+    <>
+      <div className="">
+        {onHeaderFooter || <Header></Header>}
+
+        <Outlet></Outlet>
+
+        {onHeaderFooter || <Footer></Footer>}
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
 

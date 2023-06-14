@@ -1,7 +1,8 @@
-import "./Gallery.css";
+
+
 const Gallery = () => {
-  return (
-    <div className="pt-24">
+    return (
+        <div className="pt-24">
       <div className="max-w-2xl mt-10  mx-auto  text-center">
         <p className="text-xl font-bold text-center text-[#1EB2A6] ">
           OUR GALLERY
@@ -212,7 +213,7 @@ const Gallery = () => {
         </div>
       </section>
     </div>
-  );
+    );
 };
 
 export default Gallery;
