@@ -1,6 +1,8 @@
+import useTitle from "../../hooks/useTitle";
 
 
 const Gallery = () => {
+  useTitle("Gallery")
     return (
         <div className="pt-24">
       <div className="max-w-2xl mt-10  mx-auto  text-center">

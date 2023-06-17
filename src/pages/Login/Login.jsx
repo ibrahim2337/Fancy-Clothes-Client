@@ -205,7 +205,7 @@ const Login = () => {
                   </small>
                   <button
                     type="submit"
-                    className="block w-full p-3 text-center px-6 py-2 font-bold text-cyan-50 border-md rounded-md  bg-gradient-to-r from-blue-400 to-purple-500"
+                    className="block w-full  px-5 py-3 mt-5 rounded-md bg-[#1EB2A6] hover:bg-[#05887d] text-white uppercase font-bold"
                   >
                     Log in
                   </button>
@@ -220,12 +220,12 @@ const Login = () => {
                     <FcGoogle></FcGoogle>
                   </button>
                 </div>
-                <p className="text-xs text-center sm:px-6">
+                <p className="text-sm text-center sm:px-6">
                   Do not have an account? <br />
                   <Link
                     rel="noopener noreferrer"
                     to="/register"
-                    className="underline hover:text-primary"
+                    className="underline hover:text-[#1EB2A6]"
                   >
                     Register Now
                   </Link>

@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import Loader from "../../components/Loader/Loader";
-import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import Wrapper from "../../components/Wrapper/Wrapper";
 import useFetch from "../../hooks/useFetch";
 import useTitle from "../../hooks/useTitle";
 import Banner from "./Banner/Banner";
 import Classes from "./Classes/Classes";
-
 import Instructors from "./Instructors/Instructors";
 import { BASE_URL } from "../../hooks/global";
-import Featured from "./Featured/Featured";
-
+import Category from "../../components/Category/Category";
+import Testimonials from "./Testimonials/Testimonials";
+import Packages from "./Packages/Packages";
+import Update from "./Update/Update";
 
 const Home = () => {
   useTitle("Home");
@@ -23,11 +23,14 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
+      <Category></Category>
       <Wrapper>
-        <SectionTitle
-          SubHeading={"MOST POPULAR"}
-          heading={"CLASSES"}
-        ></SectionTitle>
+        <p className="mt-20 text-xl font-bold text-center text-[#1EB2A6] ">
+          OUR COURSES
+        </p>
+        <h1 className=" text-4xl text-center font-bold mt-3 mb-16 lg:text-5xl">
+          Explore Our Popular Online Courses
+        </h1>
         {loading ? (
           <Loader />
         ) : (
@@ -46,8 +49,8 @@ const Home = () => {
               ))}
             </div>
             <Link to="/classes">
-              <div className="flex items-center pt-10 justify-center ">
-                <button className="px-8 py-2 font-bold text-cyan-50 border-md rounded-md bg-pink-400  bg-gradient-to-r from-pink-500 to-sky-300">
+              <div className="flex items-center pt-5 justify-center ">
+                <button className="px-8 py-2 font-bold text-cyan-50 border-md rounded-md bg-[#1EB2A6] hover:bg-[#428681] ">
                   SEE ALL CLASSES
                 </button>
               </div>
@@ -56,10 +59,12 @@ const Home = () => {
         )}
       </Wrapper>
       <Wrapper>
-        <SectionTitle
-          SubHeading={"MOST LOVED"}
-          heading={"INSTRUCTORS"}
-        ></SectionTitle>
+        <p className="mt-20 text-xl font-bold text-center text-[#1EB2A6] ">
+          OUR INSTRUCTOR
+        </p>
+        <h1 className=" text-4xl text-center font-bold mt-3 mb-16 lg:text-5xl">
+          Our Popular Instructor
+        </h1>
         {loading ? (
           <Loader />
         ) : (
@@ -76,8 +81,8 @@ const Home = () => {
               ))}
             </div>
             <Link to="/instructors">
-              <div className="flex items-center pt-10 justify-center">
-                <button className="px-8 py-2 font-bold text-cyan-50 border-md rounded-md bg-pink-400  bg-gradient-to-r from-pink-500 to-sky-300">
+              <div className="flex items-center pt-5 justify-center">
+                <button className="px-8 py-2 font-bold text-cyan-50 border-md rounded-md bg-[#1EB2A6] hover:bg-[#428681]">
                   SEE ALL INSTRUCTORS
                 </button>
               </div>
@@ -85,11 +90,13 @@ const Home = () => {
           </>
         )}
       </Wrapper>
-      <Featured></Featured>
+      {/* <Featured></Featured> */}
       <Wrapper>
-      <div className="py-6">
-      </div>
+        <div className="py-6"></div>
       </Wrapper>
+      <Packages></Packages>
+      <Testimonials></Testimonials>
+      <Update></Update>
     </div>
   );
 };

@@ -27,7 +27,7 @@ const StudentEnrolled = () => {
           <div className="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
             <div className="overflow-hidden border  md:rounded-lg">
               <table className="min-w-full divide-y ">
-                <thead className=" bg-sky-500">
+                <thead className=" bg-[#1EB2A6]">
                   <tr>
                     <th
                       scope="col"

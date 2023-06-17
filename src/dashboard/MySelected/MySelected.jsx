@@ -81,7 +81,7 @@ const handlePay = (data) => {
                 className="flex items-center justify-center gap-2 mt-5 lg:mt-10 cursor-pointer"
               >
                 <button
-                  className={"rounded-sm bg-sky-500 text-white md:text-xl uppercase"}
+                  className={"rounded-sm bg-[#1EB2A6] px-3 py-2 text-white md:text-xl uppercase"}
                 >
                   Go To Course
                 </button>
@@ -92,7 +92,7 @@ const handlePay = (data) => {
           <div className="lg:flex lg:gap-x-4">
             <table className="table">
               
-              <thead className="bg-sky-500 text-white rounded-lg">
+              <thead className="bg-[#1EB2A6] text-white rounded-lg">
                 <tr>
                   <th></th>
                   <th>Image</th>

@@ -27,6 +27,7 @@ import Contact from "../pages/Contuct/Contact";
 
 
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -81,6 +82,7 @@ export const router = createBrowserRouter([
         path: "/blogs",
         element: <Blogs></Blogs>,
       },
+     
     ],
   },
   {

@@ -1,11 +1,7 @@
-import TopBanner from "../../components/TopBanner/TopBanner";
 import useFetch from "../../hooks/useFetch";
-
 import Loader from "../../components/Loader/Loader";
 import Wrapper from "../../components/Wrapper/Wrapper";
-
 import Classes from "../Home/Classes/Classes";
-import img from '../../assets/top-banner.gif'
 import useTitle from "../../hooks/useTitle";
 
 const AllClasses = () => {
@@ -17,11 +13,13 @@ const AllClasses = () => {
   const classesItems = data;
 
   return (
-    <div>
-      <TopBanner
-        img={img}
-        title={"OUR CLASSES"}
-      />
+    <div className="pt-28">
+      <p className="text-xl font-bold text-center text-[#1EB2A6] ">
+        OUR COURSES
+      </p>
+      <h1 className="text-4xl text-center font-bold mt-3 lg:text-5xl">
+        Explore Our All Online Courses
+      </h1>
       <Wrapper className='py-20'>
         {loading ? (
           <Loader />

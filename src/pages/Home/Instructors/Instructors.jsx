@@ -9,6 +9,7 @@ const Instructors = ({ img, instructor, email, taken }) => {
     AOS.init();
 }, []);
   return (
+   
     <div className=" col-span-12 lg:col-span-4 rounded-lg shadow-lg ">
       <div className="card w-auto bg-base-100  shadow-xl">
       <div data-aos="zoom-in"> <figure>
@@ -19,7 +20,7 @@ const Instructors = ({ img, instructor, email, taken }) => {
           <p>Email : {email}</p>
           <p>Classes taken : {taken}</p>
           <div className="card-actions justify-end">
-            <div className="px-8 py-2 font-bold text-cyan-50 border-md rounded-md bg-[#60cdd3] ">See Classes</div>
+            <div className=" px-5 py-2 mt-5 rounded-md bg-[#1EB2A6] hover:bg-[#05887d] text-white uppercase font-bold ">See Classes</div>
           </div>
         </div>
       </div>

@@ -247,7 +247,7 @@ const Register = () => {
                   <button
                    
                     type="submit"
-                    className="block w-full p-3 text-center px-6 py-2 font-bold text-cyan-50 border-md rounded-md  bg-gradient-to-r from-blue-400 to-purple-500"
+                    className="block w-full  px-5 py-3 mt-5 rounded-md bg-[#1EB2A6] hover:bg-[#05887d] text-white uppercase font-bold"
                   >
                     REGISTER NOW
                   </button>

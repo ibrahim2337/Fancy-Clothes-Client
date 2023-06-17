@@ -178,7 +178,7 @@ const AddClasses = () => {
 
             <input
               type="submit"
-              className="btn bg-sky-500 "
+              className="btn bg-[#1EB2A6] text-white"
               value="Add Course"
             />
           </div>

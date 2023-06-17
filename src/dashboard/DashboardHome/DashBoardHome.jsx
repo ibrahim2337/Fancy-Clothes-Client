@@ -5,7 +5,7 @@ const DashBoardHome = () => {
     return (
         <div className="p-10 w-full flex flex-col items-center">
         <div className="">
-          <h2 className="mb-14 lg:mb-0 text-center lg:text-left text-5xl font-bold text-primary">
+          <h2 className="mb-14 lg:mb-0 text-center lg:text-left text-5xl font-bold text-[#1EB2A6]">
             Welcome To Dashboard
           </h2>
         </div>
